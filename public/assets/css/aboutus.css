@@ -1,0 +1,133 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 70vh;
+            background: url('https://img.freepik.com/free-photo/group-fluffy-gray-kittens-looking-curious-ready-play_157027-4512.jpg?t=st=1739380331~exp=1739383931~hmac=8ff7c7a8f2fcbc32394f9bd49d2ee0be06253af6258d6bcee41f8b89a5c3bb20&w=1480') no-repeat center center/cover;
+        }
+
+        .overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.59));
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .overlay h1 {
+            font-size: 48px;
+            font-weight: bold;
+        }
+
+        .overlay p {
+            font-size: 18px;
+            width: 50%;
+        }
+
+        /* Mission & Vision Section */
+        .mission-vision {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            /* Increased space between cards */
+            padding: 80px 10%;
+            /* Increased padding for better spacing */
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            /* Increased padding */
+            width: 400px;
+            /* Increased width */
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .card h2 {
+            color: #333;
+            font-size: 26px;
+            /* Larger font */
+            margin-bottom: 20px;
+        }
+
+        .card p {
+            font-size: 18px;
+            /* Larger font */
+            color: #555;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .card i {
+            font-size: 40px;
+            /* Larger icon */
+            color: #007bff;
+            /* Blue color */
+            margin-bottom: 15px;
+        }
+
+        .team {
+            text-align: center;
+            padding: 80px 10%;
+            background: #f8f9fa;
+        }
+
+        .team-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .team-member {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 250px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .team-member h3 {
+            font-size: 20px;
+            color: #333;
+        }
+
+
+        .team-member p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
